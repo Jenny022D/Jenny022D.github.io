@@ -15,9 +15,7 @@ description: Altair and Vega-Lite visualizations of Bigfoot sightings
 
 <div id="vis1"></div>
 
-For my first visualization, I created a bar chart showing the number of Bigfoot reports by season. This visualization helps compare how sightings vary across different times of the year. I encoded season as a nominal variable on the x-axis and the count of reports as a quantitative variable on the y-axis. I used color to represent season because it is a categorical variable, making it easier to visually distinguish between different groups.
-
-In my data preparation, I created a subset of the dataset that included only the relevant variables (season, state, and classification) and removed rows with missing values. This ensured the visualization was accurate and clean.
+For my non interactive first visualization, I created a bar chart that shows the number of Bigfoot reports by season. The visualization helps compare how sightings vary across different times of the year. I showed seasons as a nominal variable for the x axis and the count of reports as a quantitative variable on the y axis. I used colors to represent seasons sand it makes it easier to distinguish between the different groups of seasons. I also created a subset of data that included only the relevant variables like seasons, state, and classification, and removed rows and missing values. This makes sure the visualizations were accurate and clean.
 
 ---
 
@@ -25,9 +23,7 @@ In my data preparation, I created a subset of the dataset that included only the
 
 <div id="vis2"></div>
 
-For my second visualization, I created an interactive bar chart showing the number of Bigfoot reports by state, filtered by classification. In this chart, state is encoded as a nominal variable on the y-axis, while the count of reports is represented quantitatively on the x-axis. I used color to represent classification to help distinguish between categories.
-
-The interactivity is implemented using a dropdown menu that allows the user to select a classification. This improves clarity by allowing users to focus on one group of reports at a time and better compare patterns across states.
+For my second visualization, I created an interactive bar chart showing the number of Bigfoot reports by state, filtered by classification. In this chart, the states are placed as a variable on the y axis, and the count of reports is placed on the x axis as numbers. I used color to represent the classification to help distinguish between categories. The interaction is made to use a dropdown menu that allows the user to select a classification. The improves clarity by allolwing the users to be able to focus on one group of reports at a time to better compare patterns across states. 
 
 ---
 
