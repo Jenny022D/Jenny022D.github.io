@@ -9,3 +9,9 @@ Fruit Prices can be confusing because the sticker price does not always tell us 
 
 ## Main Visualization: Comparing Fruit Prices by Form
 
+<div id="vis"></div>
+
+<script type="text/javascript">
+  var spec = "/assets/json/fruit_db.json";
+  vegaEmbed('#vis', spec);
+</script>
