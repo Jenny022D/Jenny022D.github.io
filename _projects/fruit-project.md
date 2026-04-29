@@ -34,9 +34,14 @@ One important pattern is that the retail price alone does not always show the re
 
 Another pattern is that fruit form matters. Fresh fruit is not always the cheapest option, and processed forms such as frozen, canned, or juice can sometimes be more cost effective depending on the fruit. However, price is only one part of the story. Consumers may also consider convenience, nutrition, shelf life, and taste.
 
+One of the most noticeable trends is that canned and frozen fruits tend to have the highest price per cup equivalent. This suggests that while these forms offer convenience and longer shelf life, consumers are paying a premium for processing and preservation. On the other hand, juice appears to have the lowest cost per cup equivalent, making it the most affordable option in terms of volume, though it may lack the nutritional benefits of whole fruit.
+
 ## How to understand the Dashboard
 
-When using this dashboard, start by looking at the top bar chart, where you can see which fruit forms, like juice, fresh or canned, generally cost more per cup. Clicking on one of the bars will filter the two charts below to show only the fruits in that specific category. In the bottom-left scatter plot, each point represents a fruit, you can click and drag your mouse over a group of points to brush a slection, which then updates the bar chart on the right to list only those specific fruits. This allos you to compare each fruit yields and prices, for example you can select the least expensive juices in the scatter plot to see their names and preparation yield factors in the right list.
+When using this dashboard, start by looking at the top bar chart, where you can see which fruit forms, like juice, fresh or canned, generally cost more per cup. Clicking on one of the bars will filter the two charts below to show only the fruits in that specific category. In the bottom left scatter plot, each point represents a fruit, you can click and drag your mouse over a group of points to brush a slection, which then updates the bar chart on the right to list only those specific fruits. This allows you to compare each fruit yields and prices, for example you can select the least expensive juices in the scatter plot to see their names and preparation yield factors in the right list.
+
+The scatter plot reveals the relationship between retail price and price per cup equivalent. While there is a general upward trend meaning higher retail prices often lead to higher per cup costs the relationship is not perfectly linear. Some fruits have high retail prices but relatively efficient yields, making them more cost effective than expected. Others appear cheap at first but have low edible yield, increasing their true cost.
+
 
 ## Plot Summary 
 
