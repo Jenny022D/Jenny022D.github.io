@@ -1,7 +1,11 @@
 ---
 layout: project
 title: "Which Fruits Give You the Best Value?"
+description: "A data visualization project comparing fruit prices by form and cup equivalent."
+image: "/assets/images/fruit.png"
+category: python
 ---
+
 # Which Fruits Give You the Best Value
 By [Jenny Dong, Huiwon An]
 
