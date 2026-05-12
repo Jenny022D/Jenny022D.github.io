@@ -11,6 +11,10 @@ By [Jenny Dong, Huiwon An]
 
 Fruit Prices can be confusing because the sticker price does not always tell us how much fruit we actually get to eat. A fruit may look cheap by the pound, but once we account for preparation yield, waste, and cup equivalent size, the real cost can look very different. This project uses USDA fruit price data to compare average retail price with average price per cup equivalent.
 
+link: https://www.ers.usda.gov/data-products/fruit-and-vegetable-prices
+why its useful: comparing fruit prices with vegetable prices would help tell a story about the affordability of a healthy diet.
+
+
 ## 🍎 Main Visualization: Comparing Fruit Prices by Form
 
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
@@ -25,6 +29,12 @@ Fruit Prices can be confusing because the sticker price does not always tell us 
   vegaEmbed('#vis', spec);
 </script>
 
+## Prose
+The context plot at the top of the dashboard provides the macro view of the data, showing the average cost differences between fruit forms (frozen, fresh, canned, and juice) before allowing the user to dive into the micro details of each specific fruit.
+
+Context chart: displays the average cost per cup by preperation form which sets the context for the economic argument.
+Interactive explorer: The linked scatter and bar charts now use more professional layout, avoiding the overlapping text issues by streamlining the sizing.
+USDA Vegetable Prices 2023
 
 This interactive dashboard lets readers explore how fruit form affects price. The top chart shows the average price per cup equivalent by fruit form, such as fresh, frozen, canned, dried, or juice. When readers click a form, the lower charts filter to show only fruits in that category. The scatterplot compares retail price with price per cup equivalent, while the bar chart shows preparation yield for selected fruits.
 
@@ -46,6 +56,9 @@ The scatter plot reveals the relationship between retail price and price per cup
 ## 💡 Plot Summary 
 
 This data visualization represents the relationship between the average retail price of fruits and vegetables and the average price per cup equivalent. The points on the scatter plot represent a specific food item, allowing the users to be able to compare how the cost at the purchase goes into the cost of actual consumption. Looking at the plot, it is clear that some items with lower retail value still have a high price per cup, suggesting inefficiencies due to preparation, waste, or serving size differences. The interactive feature allows users to click on individual points to view detailed information and helps identify patterns across different food forms like fresh, frozen, or canned. This plot helps highlight how pricing differences are not always straightforward.
+
+## Summary 
+As we look to imporve public health outcomes, understanding the economic barriers to fruit consumption is paramount. This analysis explores the 2023 USDA fruit price data to determine how preparation forms impact the final cost-per-cup for the conusmer. Our goal is to provide a roadmap for making nutrient-dense choices regardless of budget constraints.
 
 ## Sources
 
